@@ -1,16 +1,16 @@
-# Drizzle-Supabase-Nextjs-Template
+# Drizzle-PlanetScale-Nextjs-Template
 
-### [DrizzleORM](https://orm.drizzle.team/) - [Supabase](https://supabase.com/) - [Next.js](https://nextjs.org/) - Starter Template.
+### [DrizzleORM](https://orm.drizzle.team/) - [PlanetScale](https://planetscale.com/) - [Next.js](https://nextjs.org/) - Starter Template.
 
 ## Use
 
-Use this template to get start or as template. This template consist DrizzleORM, Supabase, Zod, Next.js 13 App, TailwindCSS..
+Use this template to get start or as template. This template consist DrizzleORM, PlanetScale, Zod, Next.js 13 App, TailwindCSS..
 
 - Git Clone and Starts..
 
 ## Getting Started
 
-#### Firstly, Copy your Supabase URL or Node.js (URL) available in project setting -> database section and then add it to .env file.
+#### Firstly, Copy your Planetscale URL available in dashboard -> connect -> select @planetscale/database and then add it to .env file.
 
 Secondly, run the development server:
 
@@ -34,7 +34,7 @@ To Create migration use following command: the following command is set in packa
 pnpm run generate
 ```
 
-To Push local migration to Supabase use following command: the following command is set in package.json file.
+To Push local migration to PlanetScale use following command: the following command is set in package.json file.
 
 ```bash
 pnpm run db:push
@@ -44,9 +44,9 @@ pnpm run db:push
 
 To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn DrizzleORM](https://orm.drizzle.team/) - DrizzleORM Documentation.
-- [Learn Supabase](https://supabase.com/docs) - Supabase Docs.
+- [Learn Next.js](https://nextjs.org/docs) - Next.js Docs
+- [Learn DrizzleORM](https://orm.drizzle.team/) - DrizzleORM Docs
+- [Learn planetScale](https://planetscale.com/docs) - PlanetScale Docs
 
 ## Deploy on Vercel
 
